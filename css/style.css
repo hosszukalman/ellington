@@ -16,3 +16,15 @@ body {
   width: 960px;
   margin: 0px auto;
 }
+
+#header-top {
+  height: 35px;
+}
+
+#header-middle {
+  height: 80px;
+}
+
+#header-bottom {
+  height: 85px;
+}

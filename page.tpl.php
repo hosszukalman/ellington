@@ -95,53 +95,46 @@
     <div id="wrapper">
     <div id="page">
       <div id="header">
-        <div id="logo-title">
+        <div id="header-top">
+          <?php if (!empty($secondary_links)): ?>
+            <div id="secondary" class="clear-block">
+              <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')); ?>
+            </div>
+          <?php endif; ?>
+        </div> <!-- /header-top -->
 
+        <div id="header-middle">
           <?php if (!empty($logo)): ?>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
               <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
             </a>
           <?php endif; ?>
 
-          <div id="name-and-slogan">
-            <?php if (!empty($site_name)): ?>
-              <h1 id="site-name">
-                <a href="<?php print $front_page ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </h1>
-            <?php endif; ?>
-
-            <?php if (!empty($site_slogan)): ?>
-              <div id="site-slogan"><?php print $site_slogan; ?></div>
-            <?php endif; ?>
-          </div> <!-- /name-and-slogan -->
-        </div> <!-- /logo-title -->
-
-        <?php if (!empty($search_box)): ?>
-          <div id="search-box"><?php print $search_box; ?></div>
-        <?php endif; ?>
-
-        <?php if (!empty($header)): ?>
-          <div id="header-region">
-            <?php print $header; ?>
-          </div>
-        <?php endif; ?>
-
-      </div> <!-- /header -->
-
-      <div id="container" class="clear-block">
-
-        <div id="navigation" class="menu <?php if (!empty($primary_links)) { print "withprimary"; } if (!empty($secondary_links)) { print " withsecondary"; } ?> ">
           <?php if (!empty($primary_links)): ?>
             <div id="primary" class="clear-block">
               <?php print theme('links', $primary_links, array('class' => 'links primary-links')); ?>
             </div>
           <?php endif; ?>
 
-          <?php if (!empty($secondary_links)): ?>
-            <div id="secondary" class="clear-block">
-              <?php print theme('links', $secondary_links, array('class' => 'links secondary-links')); ?>
-            </div>
+          <?php if (!empty($search_box)): ?>
+            <div id="search-box"><?php print $search_box; ?></div>
           <?php endif; ?>
+        </div> <!-- /header-middle -->
+
+        <div id="header-bottom">
+          <?php if (!empty($site_slogan)): ?>
+            <div id="site-slogan"><?php print $site_slogan; ?></div>
+          <?php endif; ?>
+        </div> <!-- /header-bottom -->
+
+        
+      </div> <!-- /header -->
+
+      <div id="container" class="clear-block">
+
+        <div id="navigation" class="menu <?php if (!empty($primary_links)) { print "withprimary"; } if (!empty($secondary_links)) { print " withsecondary"; } ?> ">
+          
+
         </div> <!-- /navigation -->
 
         <?php if (!empty($left)): ?>
