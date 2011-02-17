@@ -1,4 +1,7 @@
 /* $Id$ */
 body {
   background: #333333 url('../img/body_bg.jpg') repeat-x left top;
+  font-size: 13px;
+  color: #333333;
+  font-family: Arial;
 }
