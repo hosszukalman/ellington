@@ -17,6 +17,7 @@ body {
   margin: 0px auto;
 }
 
+/* HEADER */
 #header-top {
   height: 35px;
 }
@@ -27,4 +28,16 @@ body {
 
 #header-bottom {
   height: 85px;
+}
+
+#container-wrapper {
+  background: transparent url('../img/container_wrapper_bg.jpg') no-repeat right top;
+}
+
+#container {
+  background: transparent url('../img/container_no_sidebar_bg.jpg') repeat-y left top;
+}
+
+body.one-sidebar #container {
+  background: transparent url('../img/container_bg.jpg') repeat-y left top;
 }
