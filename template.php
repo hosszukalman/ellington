@@ -33,3 +33,15 @@ function phptemplate_search_theme_form($form) {
   unset($form['search_theme_form']['#title']);
   return drupal_render($form);
 }
+
+/**
+ * Change breadcrumb simbol.
+ *
+ * @param array $breadcrumb
+ * @return string
+ */
+function phptemplate_breadcrumb($breadcrumb) {
+  if (!empty($breadcrumb)) {
+    return '<div class="breadcrumb">' . implode(' › ', $breadcrumb) . '</div>';
+  }
+}

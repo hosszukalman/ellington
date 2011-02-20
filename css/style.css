@@ -185,6 +185,19 @@ div.tabs li a.active {
   background: #FFFFFF;
 }
 
+#breadcrumb div.breadcrumb {
+  background-color: #E7E7E7;
+  margin-top: 20px;
+  padding: 10px;
+  color: #FF4700;
+  font-weight: bold;
+}
+
+#breadcrumb div.breadcrumb a {
+  color: #666666;
+  font-weight: normal;
+}
+
 /* LEFT */
 #sidebar-left {
   float: left;
