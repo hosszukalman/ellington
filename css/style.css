@@ -6,6 +6,10 @@ body {
   font-family: Arial;
 }
 
+.c-b {
+  clear: both;
+}
+
 #wrapper {
   background: transparent url('../img/wrapper_bg.jpg') no-repeat left top;
   width: 1120px;
@@ -13,7 +17,7 @@ body {
 }
 
 #page {
-  width: 960px;
+  width: 969px;
   margin: 0px auto;
 }
 
@@ -30,6 +34,8 @@ body {
   height: 85px;
 }
 
+/* MAIN */
+
 #container-wrapper {
   background: transparent url('../img/container_wrapper_bg.jpg') no-repeat right top;
 }
@@ -38,6 +44,37 @@ body {
   background: transparent url('../img/container_no_sidebar_bg.jpg') repeat-y left top;
 }
 
+#main {
+  padding: 10px;
+}
+
 body.one-sidebar #container {
   background: transparent url('../img/container_bg.jpg') repeat-y left top;
+}
+
+body.one-sidebar #main {
+  float: left;
+  width: 710px;
+}
+
+/* LEFT */
+#sidebar-left {
+  float: left;
+  width: 239px;
+}
+
+#sidebar-left div.block {
+  margin: 5px;
+}
+
+#sidebar-left div.block div.content {
+  padding: 5px;
+}
+
+#sidebar-left h2 {
+  background: transparent url('../img/sidebar_header_bg.jpg') no-repeat left top;
+  font-size: 15px;
+  font-weight: bold;
+  height: 31px;
+  padding: 12px 5px 0 30px;
 }
