@@ -104,11 +104,13 @@
         </div> <!-- /header-top -->
 
         <div id="header-middle">
-          <?php if (!empty($logo)): ?>
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-              <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-            </a>
-          <?php endif; ?>
+          <div id="logo-wrapper">
+            <?php if (!empty($logo)): ?>
+              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+                <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+              </a>
+            <?php endif; ?>
+          </div> <!-- /logo-wrapper -->
 
           <?php if (!empty($primary_links)): ?>
             <div id="primary">
