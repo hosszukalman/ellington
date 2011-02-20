@@ -78,3 +78,20 @@ body.one-sidebar #main {
   height: 31px;
   padding: 12px 5px 0 30px;
 }
+
+#sidebar-left ul {
+  padding: 0px 0px 0px 15px;
+}
+
+#sidebar-left li {
+  border-bottom: 1px dotted #C5C5C5;
+  color: #99002B;
+  list-style: none outside none;
+  margin: 0px 6px 0px 0px;
+  padding: 0 10px 3px 10px;
+}
+
+#sidebar-left li a {
+  color: #99002B;
+  text-decoration: none;
+}
