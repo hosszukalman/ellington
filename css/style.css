@@ -57,10 +57,26 @@ body {
 
 #primary {
   float: left;
+  padding-top: 35px;
 }
 
 body.search-box #primary {
   width: 410px;
+}
+
+#primary ul.primary-links li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#primary ul.primary-links li {
+  background: transparent url('../img/primary_bg.jpg') no-repeat right top;
+  padding: 30px 15px 25px 10px;
+}
+
+#primary ul.primary-links li.last {
+  background-image: none;
 }
 
 #search-box {
@@ -85,7 +101,7 @@ body.search-box #primary {
   padding: 2px 5px;
 }
 
-#search-box #edit-submit {
+#search-box .form-submit {
   border: 1px solid #040302;
   color: #FFFFFF;
   background: #353535;
@@ -99,6 +115,7 @@ body.search-box #primary {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
+
 
 /* MAIN */
 
