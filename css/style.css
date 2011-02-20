@@ -171,6 +171,20 @@ body.one-sidebar #main {
   width: 710px;
 }
 
+div.tabs li a {
+  border: 1px solid #E9E9E9;
+  color: #333333;
+  padding: 5px 20px 0px 20px;
+  background: #E9E9E9;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9E9E9', endColorstr='#CCCCCC');
+  background: -webkit-gradient(linear, left top, left bottom, from(#E9E9E9), to(#CCCCCC));
+  background: -moz-linear-gradient(top, #E9E9E9, #CCCCCC);
+}
+
+div.tabs li a.active {
+  background: #FFFFFF;
+}
+
 /* LEFT */
 #sidebar-left {
   float: left;
