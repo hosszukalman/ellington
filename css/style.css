@@ -116,6 +116,14 @@ body.search-box #primary {
   border-radius: 5px;
 }
 
+#site-slogan {
+  text-align: right;
+  color: #CCCCCC;
+  font-size: 14px;
+  font-style: italic;
+  padding: 35px 25px 0px 0px;
+}
+
 
 /* MAIN */
 
