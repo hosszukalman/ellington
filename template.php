@@ -42,6 +42,6 @@ function phptemplate_search_theme_form($form) {
  */
 function phptemplate_breadcrumb($breadcrumb) {
   if (!empty($breadcrumb)) {
-    return '<div class="breadcrumb">' . implode(' › ', $breadcrumb) . '</div>';
+    return implode('<span></span> ', $breadcrumb);
   }
 }

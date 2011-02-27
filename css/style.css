@@ -185,54 +185,80 @@ div.tabs li a.active {
   background: #FFFFFF;
 }
 
-#breadcrumb div.breadcrumb {
-  background-color: #E7E7E7;
-  margin-top: 20px;
-  padding: 10px;
-  color: #FF4700;
-  font-weight: bold;
+/* BREADCRUMB */
+#breadcrumb {
+    background: url("../img/breadcrumb_bg.png") no-repeat top left;
+    margin-top: 20px;
 }
-
-#breadcrumb div.breadcrumb a {
-  color: #666666;
-  font-weight: normal;
+#breadcrumb div{
+    background: url("../img/breadcrumb_endbg.png") no-repeat top right;
+    height: 23px;
+    padding: 7px 10px 0px 10px;
+}
+#breadcrumb a {
+    background: url("../img/breadcrumb_split.png") no-repeat 100% 30%;
+    color: #666;
+    display: block;
+    padding-right: 14px;
+    margin-right: 8px;
+    height: 20px;
+    float: left;
 }
 
 /* LEFT */
 #sidebar-left {
   float: left;
-  width: 239px;
+  padding-top: 4px;
+  width: 234px;
 }
-
 #sidebar-left div.block {
-  margin: 5px;
+  margin: 0px 0px 0px 5px;
 }
-
 #sidebar-left div.block div.content {
   padding: 5px;
 }
-
 #sidebar-left h2 {
   background: transparent url('../img/sidebar_header_bg.jpg') no-repeat left top;
   font-size: 15px;
   font-weight: bold;
   height: 31px;
+  margin: 0px;
   padding: 12px 5px 0 30px;
 }
-
 #sidebar-left ul {
   padding: 0px 0px 0px 15px;
 }
-
 #sidebar-left li {
-  border-bottom: 1px dotted #C5C5C5;
+  border-top: 1px dotted #C5C5C5;
   color: #99002B;
   list-style: none outside none;
-  margin: 0px 6px 0px 0px;
-  padding: 0 10px 3px 10px;
+  margin: 0px;
+  width: 100%;
 }
-
 #sidebar-left li a {
   color: #99002B;
+  padding: 3px 10px;
+  display: block;
   text-decoration: none;
+}
+#sidebar-left .active {
+    font-weight: bold;
+    color: #333;
+}
+
+/* FORMS */
+fieldset {
+    padding: 15px;
+    border: 1px solid #DDD;
+    margin: 10px 0px;
+}
+fieldset legend {
+    font-weight: bold;
+}
+table {
+    width: 100%;
+}
+
+#footer-wrapper {
+    margin-top: 10px;
 }
