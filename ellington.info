@@ -14,3 +14,11 @@ stylesheets[all][] = css/style.css
 ; Regions
 regions[left] = Left sidebar
 regions[content] = Content
+
+; Features
+features[] = logo
+features[] = slogan
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
