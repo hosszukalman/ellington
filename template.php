@@ -19,6 +19,10 @@ function phptemplate_preprocess_page(&$vars) {
   if (!empty($vars['search_box'])) {
     $vars['body_classes'] .= ' search-box';
   }
+
+  // Add IE6 no more script ot not.
+  $ie6nomore = theme_get_setting('ellington_ie6nomore');
+  $vars['ie6nomore'] = is_null($ie6nomore) ? 1 : $ie6nomore;
 }
 
 /**
