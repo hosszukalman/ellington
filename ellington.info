@@ -14,4 +14,3 @@ stylesheets[all][] = css/style.css
 ; Regions
 regions[left] = Left sidebar
 regions[content] = Content
-regions[footer] = Footer
