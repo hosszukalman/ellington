@@ -217,7 +217,7 @@ div.tabs li a.active {
   margin: 0px 0px 0px 5px;
 }
 #sidebar-left div.block div.content {
-  padding: 5px;
+  padding: 10px;
 }
 #sidebar-left h2 {
   background: transparent url('../img/sidebar_header_bg.jpg') no-repeat left top;
@@ -232,14 +232,14 @@ div.tabs li a.active {
 }
 #sidebar-left li {
   border-top: 1px dotted #C5C5C5;
-  color: #99002B;
+  color: #333;
   list-style: none outside none;
+  padding: 4px 10px;
   margin: 0px;
   width: 100%;
 }
 #sidebar-left li a {
   color: #99002B;
-  padding: 3px 10px;
   display: block;
   text-decoration: none;
 }
