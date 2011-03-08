@@ -238,6 +238,31 @@ div.tabs li a.active {
     float: left;
 }
 
+/* PAGER */
+#main ul.pager {
+  margin: 15px 0px;
+}
+#main ul.pager li {
+  margin: 0px 0px 0px 2px;
+  padding: 2px 7px;
+  border: 1px solid #999999;
+}
+
+#main ul.pager li.pager-current {
+  background: #999999;
+  border-color: #999999;
+  color: #FFFFFF;
+}
+
+#main ul.pager li.pager-next, #main ul.pager li.pager-last, #main ul.pager li.pager-previous, #main ul.pager li.pager-first {
+  border: none;
+}
+
+#main ul.pager li a {
+  color: #99002B;
+  text-decoration: none;
+}
+
 /* COMMENTS */
 #comments {
   margin-top: 50px;
