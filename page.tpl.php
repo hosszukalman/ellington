@@ -183,6 +183,8 @@
 
       </div> <!-- /container -->
 
+      <div id="container-bottom"></div>
+
       <div id="footer-wrapper">
         <div id="footer">
           <?php print $footer_message; ?>

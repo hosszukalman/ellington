@@ -168,6 +168,16 @@ body.one-sidebar #container-wrapper {
   background: transparent url('../img/container_no_sidebar_bg.jpg') repeat-y left top;
 }
 
+#container-bottom {
+  background: transparent url('../img/container_bottom_no_sidebar_bg.jpg') no-repeat left top;
+  height: 34px;
+  width: 100%;
+}
+
+body.one-sidebar #container-bottom {
+  background: transparent url('../img/container_bottom_bg.jpg') no-repeat left top;
+}
+
 #main {
   padding: 10px;
 }
