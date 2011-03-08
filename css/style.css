@@ -35,6 +35,10 @@ p {
   clear: both;
 }
 
+.b-s-b-ccc {
+  border-bottom: 1px solid #CCCCCC;
+}
+
 #wrapper {
   background: transparent url('../img/wrapper_bg.jpg') no-repeat left top;
   width: 1120px;
@@ -164,6 +168,19 @@ body.search-box #primary {
   padding: 10px;
 }
 
+#main div.meta {
+  background: #F0F2F3;
+  margin-top: 10px;
+}
+
+#main div.meta a {
+  color: #666666;
+}
+
+#main div.meta div.meta-row {
+  padding: 5px 15px;
+}
+
 body.one-sidebar #container {
   background: transparent url('../img/container_bg.jpg') repeat-y left top;
 }
@@ -205,6 +222,27 @@ div.tabs li a.active {
     margin-right: 8px;
     height: 20px;
     float: left;
+}
+
+/* COMMENTS */
+#comments {
+  margin-top: 50px;
+}
+
+#main div.comment {
+  border-top: 1px dashed #999999;
+  margin-bottom: 25px;
+}
+
+#main div.comment h3, #main div.comment h3 a {
+  color: #333333;
+  font-size: 14px;
+  margin: 10px 0px 3px 0px;
+}
+
+#main div.comment div.submitted {
+  color: #999999;
+  margin-bottom: 15px;
 }
 
 /* LEFT */
