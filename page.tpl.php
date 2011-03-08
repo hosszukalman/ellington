@@ -194,7 +194,7 @@
       <?php print $closure; ?>
 
     </div> <!-- /page -->
-    <a href="http://www.premiumthemesdrupal.com" target="_blank" class="pt_logo"></a>
+    <a href="http://premiumcmsthemes.com" target="_blank" class="pt_logo"></a>
     <?php print $feed_icons; ?>
 
     </div> <!-- /wrapper -->
