@@ -157,6 +157,10 @@ body.search-box #primary {
 /* MAIN */
 
 #container-wrapper {
+  background: transparent url('../img/container_wrapper_no_sidebar_bg.jpg') no-repeat left top;
+}
+
+body.one-sidebar #container-wrapper {
   background: transparent url('../img/container_wrapper_bg.jpg') no-repeat right top;
 }
 
