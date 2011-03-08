@@ -347,3 +347,9 @@ table {
     display: block;
     margin: 5px auto 5px auto;
 }
+
+.feed-icon {
+  display: block;
+  margin: 0px auto;
+  width: 16px;
+}

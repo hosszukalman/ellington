@@ -173,7 +173,7 @@
               <div id="content-content" class="clear-block">
                 <?php print $content; ?>
               </div> <!-- /content-content -->
-              <?php print $feed_icons; ?>
+              
             </div> <!-- /content -->
 
           </div> <!-- /main -->
@@ -195,6 +195,7 @@
 
     </div> <!-- /page -->
     <a href="http://www.premiumthemesdrupal.com" target="_blank" class="pt_logo"></a>
+    <?php print $feed_icons; ?>
 
     </div> <!-- /wrapper -->
 
