@@ -172,6 +172,7 @@
       <?php print $closure; ?>
 
     </div> <!-- /page -->
+    <a href="http://www.premiumthemesdrupal.com" target="_blank" class="pt_logo"></a>
 
     </div> <!-- /wrapper -->
 
