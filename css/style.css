@@ -29,7 +29,7 @@ h3, h3 a {
   color: #666666;
 }
 p {
-  margin: 10px 0px;
+    margin: 10px 0px;
 }
 .c-b {
   clear: both;
@@ -346,4 +346,10 @@ table {
     height: 43px;
     display: block;
     margin: 5px auto 5px auto;
+}
+
+.feed-icon {
+  display: block;
+  margin: 0px auto;
+  width: 16px;
 }
