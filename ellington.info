@@ -1,6 +1,6 @@
 ; $Id$
 name = Ellington
-description = Tableness theme for Drupal CMS by <a href="http://premiumthemesdrupal.com">Premium Themes Drupal<a>.
+description = Tableness theme for Drupal CMS by <a href="http://premiumcmsthemes.com">Premium CMS Themes<a>.
 core = 6.x
 engine = phptemplate
 
@@ -14,4 +14,11 @@ stylesheets[all][] = css/style.css
 ; Regions
 regions[left] = Left sidebar
 regions[content] = Content
-regions[footer] = Footer
+
+; Features
+features[] = logo
+features[] = slogan
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links

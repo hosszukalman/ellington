@@ -28,7 +28,9 @@ h3, h3 a {
   font-size: 17px;
   color: #666666;
 }
-
+p {
+  margin: 10px 0px;
+}
 .c-b {
   clear: both;
 }
@@ -40,7 +42,7 @@ h3, h3 a {
 }
 
 #page {
-  width: 969px;
+  width: 970px;
   margin: 0px auto;
 }
 
@@ -149,9 +151,12 @@ body.search-box #primary {
 
 
 /* MAIN */
-
+#content {
+  padding: 0px 20px;
+}
 #container-wrapper {
   background: transparent url('../img/container_wrapper_bg.jpg') no-repeat right top;
+  border-bottom: 4px solid #7A7A7A;
 }
 
 #container {
@@ -171,68 +176,127 @@ body.one-sidebar #main {
   width: 710px;
 }
 
+/* TABS */
+div.tabs ul {
+  padding: 0px;
+  margin: 0px 0px 5px 0px;
+  height: 24px;
+}
+div.tabs ul li {
+  padding: 0px 0px;
+  display: block;
+  float: left;
+  border: 0px;
+  margin-right: 3px;
+}
 div.tabs li a {
-  border: 1px solid #E9E9E9;
   color: #333333;
-  padding: 5px 20px 0px 20px;
+  display: block;
+  float: left;
+  margin-right: 3px;
+  padding: 5px 20px 4px 20px;
   background: #E9E9E9;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9E9E9', endColorstr='#CCCCCC');
   background: -webkit-gradient(linear, left top, left bottom, from(#E9E9E9), to(#CCCCCC));
   background: -moz-linear-gradient(top, #E9E9E9, #CCCCCC);
 }
-
 div.tabs li a.active {
   background: #FFFFFF;
+  border-bottom: 0px solid #FFF;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+div.tabs ul.secondary {
+  margin: 0px;
 }
 
-#breadcrumb div.breadcrumb {
-  background-color: #E7E7E7;
+/* BREADCRUMB */
+#breadcrumb {
+  background: url("../img/breadcrumb_bg.png") no-repeat top left;
   margin-top: 20px;
-  padding: 10px;
-  color: #FF4700;
-  font-weight: bold;
 }
-
-#breadcrumb div.breadcrumb a {
-  color: #666666;
-  font-weight: normal;
+#breadcrumb div{
+  background: url("../img/breadcrumb_endbg.png") no-repeat top right;
+  height: 23px;
+  padding: 7px 10px 0px 10px;
+}
+#breadcrumb a {
+  background: url("../img/breadcrumb_split.png") no-repeat 100% 30%;
+  color: #666;
+  display: block;
+  padding-right: 14px;
+  margin-right: 8px;
+  height: 20px;
+  float: left;
 }
 
 /* LEFT */
 #sidebar-left {
   float: left;
-  width: 239px;
+  padding-top: 4px;
+  width: 234px;
 }
-
 #sidebar-left div.block {
-  margin: 5px;
+  margin: 0px 0px 0px 5px;
 }
-
 #sidebar-left div.block div.content {
-  padding: 5px;
+  padding: 10px;
 }
-
 #sidebar-left h2 {
   background: transparent url('../img/sidebar_header_bg.jpg') no-repeat left top;
   font-size: 15px;
   font-weight: bold;
   height: 31px;
+  margin: 0px;
   padding: 12px 5px 0 30px;
 }
-
 #sidebar-left ul {
   padding: 0px 0px 0px 15px;
 }
-
 #sidebar-left li {
-  border-bottom: 1px dotted #C5C5C5;
-  color: #99002B;
+  border-top: 1px dotted #C5C5C5;
+  color: #333;
+  padding-right: 0px;
   list-style: none outside none;
-  margin: 0px 6px 0px 0px;
-  padding: 0 10px 3px 10px;
+  margin: 0px;
 }
-
 #sidebar-left li a {
   color: #99002B;
+  display: block;
+  padding: 4px 0px 4px 10px;
   text-decoration: none;
+}
+#sidebar-left .active {
+  font-weight: bold;
+  color: #333;
+}
+
+/* FORMS */
+fieldset {
+  padding: 15px;
+  border: 1px solid #DDD;
+  margin: 10px 0px;
+}
+fieldset legend {
+  font-weight: bold;
+}
+table {
+  width: 100%;
+}
+
+#footer-wrapper {
+  margin-top: 10px;
+}
+.pt_logo {
+  background: url("../img/premium_themes_logo.png") no-repeat top left;
+  width: 160px;
+  height: 43px;
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.feed-icon {
+  display: block;
+  margin: 0px auto;
+  width: 16px;
 }
